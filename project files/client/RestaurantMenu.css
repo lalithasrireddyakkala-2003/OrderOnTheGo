@@ -1,0 +1,82 @@
+.menu-container {
+  padding: 20px;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.back-btn {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+.search-input {
+  width: 50%;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* ⭐ CENTERING THE MENU GRID PERFECTLY ⭐ */
+.menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  /* <-- This centers the grid fully */
+  gap: 20px;
+}
+
+.menu-card {
+  width: 220px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fafafa;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.menu-img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.add-cart-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.add-cart-btn:hover {
+  background-color: #e65c00;
+}
